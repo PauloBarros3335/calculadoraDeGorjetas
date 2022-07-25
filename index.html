@@ -20,27 +20,27 @@
 					<p>Quanto ficou a conta</p>
 				</label>
 				<p>
-					RS <input type="number" placeholder="100" name="bill" id="bill" class="formInput" >
+					RS <input type="number" placeholder="100" name="bill" id="bill" class="formInput" required>
 				</p>
 				<label for="servicequal">
 					<p>Como foi seu serviço</p>
 				</label>
 				<p>
-					<select name="servicequal" id="servicequal" class="formSelect"  >
+					<select name="servicequal" id="servicequal" class="formSelect" required >
 						<option disabled selected value="0">Escolha uma opção</option>
-						<option value="0.30">30% - incrivel</option>
-						<option value="0.20">20% - bom</option>
-						<option value="0.15">15% - aceitável</option>
-						<option value="0.10">10% - ruim</option>
-						<option value="0.5">05% - péssimo</option>
-						<option value="0.0">00% - Ultra péssimo </option>
+						<option value="30">30% - incrivel</option>
+						<option value="20">20% - bom</option>
+						<option value="15">15% - aceitável</option>
+						<option value="10">10% - ruim</option>
+						<option value="5">05% - péssimo</option>
+						<option value="0">00% - Ultra péssimo </option>
 					</select>
 				</p>
 				<label for="people">
 					<p>Quantas pessoa vão dividir a conta</p>
 				</label>
 				<p>
-					<input type="number" placeholder="1" name="people" id="people" class="formInput"  > pessoa(s)
+					<input type="number" placeholder="1" name="people" id="people" class="formInput" required > pessoa(s)
 				</p>
 				<button type="submit" class="submit" id="calcular">Calcular!</button>
 			</form>
