@@ -19,7 +19,14 @@ function calculateTip(event){
      document.getElementById('each').style.display ="block"; 
   
   }
-  let total = (bill.value * servicequal.value) / numOfpeople.value;
+ // let total = (bill.value * servicequal.value) / numOfpeople.value;
+
+
+  let total = ( parseInt( bill.value )+ (parseInt(bill.value) * parseInt(servicequal.value) ) / 100) / parseInt(numOfpeople.value);
+
+   
+    
+
   total = total.toFixed(2)
   document.getElementById('tip').innerHTML = total;
   document.getElementById('totaltip').style.display ="block";

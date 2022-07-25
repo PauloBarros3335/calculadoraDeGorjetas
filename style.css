@@ -9,7 +9,7 @@
 body{
 	background-color: var(--primary-color);
 	font-size: 15px;
-	8font-family: lato, sans-serif;
+	font-family: lato, sans-serif;
 }
 #container{
 	height: 525px;
